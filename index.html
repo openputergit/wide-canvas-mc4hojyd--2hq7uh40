@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfluenceMatch Pro - Connecting Brands & Influencers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #9333EA 0%, #FB923C 100%);
+        }
+        .custom-shadow {
+            box-shadow: 0 10px 30px rgba(147, 51, 234, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-purple-600">InfluenceMatch<span class="text-orange-400">Pro</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-purple-600">Home</a>
+                    <a href="#services" class="text-gray-600 hover:text-purple-600">Services</a>
+                    <a href="#how-it-works" class="text-gray-600 hover:text-purple-600">How It Works</a>
+                    <a href="#contact" class="bg-purple-600 text-white px-6 py-2 rounded-full hover:bg-purple-700">Contact Us</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-600">
+                        <i class="bi bi-list text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden fixed w-full bg-white shadow-lg z-40 top-16">
+        <div class="px-4 py-2 space-y-3">
+            <a href="#home" class="block text-gray-600">Home</a>
+            <a href="#services" class="block text-gray-600">Services</a>
+            <a href="#how-it-works" class="block text-gray-600">How It Works</a>
+            <a href="#contact" class="block text-purple-600">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 gradient-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-white">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Connect Brands with Perfect Influencers</h1>
+                    <p class="text-lg mb-8">We help brands find their ideal influencer partners and help influencers connect with brands that match their values.</p>
+                    <a href="#contact" class="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100">Get Started</a>
+                </div>
+                <div class="hidden md:block">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80" alt="Marketing" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white rounded-xl custom-shadow">
+                    <i class="bi bi-building text-4xl text-purple-600"></i>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">For Brands</h3>
+                    <p class="text-gray-600">Find the perfect influencers who align with your brand values and reach your target audience effectively.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl custom-shadow">
+                    <i class="bi bi-person-badge text-4xl text-orange-400"></i>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">For Influencers</h3>
+                    <p class="text-gray-600">Connect with brands that match your style and values, creating authentic partnerships.</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl custom-shadow">
+                    <i class="bi bi-graph-up text-4xl text-purple-600"></i>
+                    <h3 class="text-xl font-semibold mt-4 mb-2">Analytics & Reporting</h3>
+                    <p class="text-gray-600">Get detailed insights and analytics to measure campaign performance and ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl font-bold">1</span>
+                    </div>
+                    <h3 class="font-semibold mb-2">Sign Up</h3>
+                    <p class="text-gray-600">Create your profile as a brand or influencer</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl font-bold">2</span>
+                    </div>
+                    <h3 class="font-semibold mb-2">Match</h3>
+                    <p class="text-gray-600">Get matched with potential partners</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl font-bold">3</span>
+                    </div>
+                    <h3 class="font-semibold mb-2">Collaborate</h3>
+                    <p class="text-gray-600">Work together on campaigns</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-orange-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl font-bold">4</span>
+                    </div>
+                    <h3 class="font-semibold mb-2">Grow</h3>
+                    <p class="text-gray-600">Track success and scale partnerships</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Contact Us</h2>
+            <form id="contact-form" class="space-y-6">
+                <div>
+                    <label class="block text-gray-700 mb-2">Name</label>
+                    <input type="text" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                </div>
+                <div>
+                    <label class="block text-gray-700 mb-2">Email</label>
+                    <input type="email" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                </div>
+                <div>
+                    <label class="block text-gray-700 mb-2">I am a</label>
+                    <select class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600">
+                        <option>Brand</option>
+                        <option>Influencer</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-gray-700 mb-2">Message</label>
+                    <textarea required rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-700">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">InfluenceMatchPro</h3>
+                    <p class="text-gray-400">Connecting brands and influencers for authentic partnerships.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-white">Home</a></li>
+                        <li><a href="#services" class="hover:text-white">Services</a></li>
+                        <li><a href="#how-it-works" class="hover:text-white">How It Works</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="bi bi-envelope"></i> info@influencematchpro.com</li>
+                        <li><i class="bi bi-telephone"></i> +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400">
+                <p>&copy; 2023 InfluenceMatchPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Contact form submission
+        const contactForm = document.getElementById('contact-form');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            contactForm.reset();
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+<script>document.body.addEventListener('wheel', e => { if (!e.ctrlKey) return; e.preventDefault(); return }, { passive: false })</script>
+	</body>
+</html>
